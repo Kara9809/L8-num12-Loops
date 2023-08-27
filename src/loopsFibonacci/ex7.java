@@ -10,7 +10,7 @@ public class ex7 {
         System.out.println(a1 + "," + a2);
         System.out.println("number :"+num);
         while (a2 < num) {
-            a2 = a2 +a1;
+            a2 = a2 + a1;
             a1 = a2 - a1;
             if (a2 < num) {
                 System.out.println("," + a2);
@@ -19,6 +19,6 @@ public class ex7 {
             }
         }
         System.out.println();
-        System.out.println("Avg :" + sum *1.0 / count);
+        System.out.println("Avg :" + sum * 1.0 / count);
     }
 }
